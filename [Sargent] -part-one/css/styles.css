@@ -1,0 +1,159 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    box-sizing: border-box;    
+
+}
+
+body {
+    background-color: #F0ECEE 
+}
+
+.main {
+    margin-top: 10%;
+    
+}
+
+#button1 {
+    
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF4850;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#button2 {
+    
+    padding: 10px;
+    width: 100%;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF4850;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+   
+    height: 100vh;
+    margin: 20px;
+    
+    
+    
+}
+
+/*h2 {
+    margin-right: auto;
+    
+}*/
+
+.friend {
+    font-size: 28px;
+}
+
+
+h2 strong {
+    color: #FF4850;
+}
+
+
+/* Menu Styles */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+p {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #88898b;
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #88898b;
+    padding: 0px
+    
+    
+}
+
+nav a:hover {
+    background-color: #CCC;
+}
+
+
+@media screen and (min-width: 768px){
+    .navbar {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .container {
+        background-image: url("bulldog.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    ul {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0px;
+
+    }
+
+    a {
+        padding: 10px;
+    }
+    
+    .main {
+        width: 50%;
+        
+    }
+    
+    #button1 {
+        margin-top: 0;
+    }
+
+    #button2 {
+        width: 200px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+/*for Mobile and Small Devices *
+@media (min-width: 900px){
+  .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+}
+}
